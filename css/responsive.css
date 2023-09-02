@@ -1,0 +1,196 @@
+@media (max-width:430px) {
+
+    .navbar .logo img {
+        width: 10px;
+    }
+    /* .fa-xmark {
+        display: block;
+        color: #fff;
+        font-size: 22px;
+        position: relative;
+        top: 0;
+        z-index: 8;
+        left: 172px;
+        padding-top: 30px;
+    } */
+    /* .fa-bars {
+        display: block;
+        font-size: 22px;
+        color: #fff;
+        padding-top: 20px;
+    } */
+    /* .navbar {
+        align-items: flex-start;
+    } */
+    /* .navLink ul {
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        right: -200px;
+        /* left: 86px; */
+       /* width: 200px;
+        height: 100vh;
+        background-color: #f44336;
+        
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+ */
+
+        /* toggle effect css */
+
+    .navLink ul {
+        flex-direction: column;
+        padding: 40px;
+    }
+    .navLink {
+        position: absolute;
+        top: -100vh;
+        /* right: -200px; */
+        width: 87.5vw;
+        height: 100vh;
+        background-color: #f44336;
+        /* text-align: left; */
+        padding: 13px 25px;
+        z-index: 2;
+        transition: all ease-in 1s;
+        
+    }
+    .fa-solid {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+
+
+
+
+
+
+
+    #home #content {
+        justify-content: center;
+    }
+    #home #content p {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    /* course style responsive */
+    #cor_list {
+        flex-direction: column;
+    }
+    #cor_list .cor_name {
+        width: 85%;
+    }
+
+    /* campus style */
+    #camp_list {
+        flex-direction: column;
+    }
+
+
+
+    /* facility style */
+    #faci_list {
+        flex-direction: column;
+        text-align-last: center;
+        gap: 30px;
+    }
+    #faci_list .faci_type {
+        width: 100%;
+    }
+    
+    /* testiomonial section style */
+
+    #testimonial .small_text {
+        font-size: 25px;
+    }
+    #comment {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    #comment .feedback {
+        min-width: 95%;
+    }
+ /* enroll sectio style */
+    #enroll .overlay h2 {
+        font-size: 15px;
+    }
+
+    /* footer */
+    .footer_link {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .footer_link ul {
+        flex-direction: column;
+    }
+    .icon ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* blog page comment sectio style */
+
+    .sub-btn {
+        width: 100%;
+    }
+
+    /* about page responsive design */
+
+    #about {
+        flex-direction: column;
+    }
+    #about #left {
+        width: 90%;
+    }
+    #about #right {
+        width: 90%;
+    }
+
+    /* contact page responsive design */
+
+    #address {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .address-left {
+        width: 100%;
+    }
+    .right-comment {
+        width: 100%;
+    }
+
+
+}
+
+/* blog page responsive for 770px screen*/
+
+@media (max-width:770px) {
+    #post {
+        flex-direction: column;
+    }
+    #post-img {
+        width: 90%;
+        margin: 0 auto;
+        /* border: 2px solid green; */
+    }
+    #categoris {
+        width: 80%;
+        margin: 0 auto;
+        /* border: 3px solid blue; */
+    }
+    .hide {
+        display: none;
+    }
+    
+}
